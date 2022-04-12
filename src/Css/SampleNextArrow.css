@@ -2,7 +2,7 @@
   display: flex;
   z-index: 1;
   position: absolute;
-  background-color: white;
+  background-color: rgb(65, 63, 63);
   border-radius: 19px;
   padding: 8px;
   top: 50%;
@@ -14,7 +14,7 @@
 .NextArrow::after,
 .NextArrow:hover {
   /* display: block; */
-  background-color: rgb(65, 63, 63);
+  background-color: black;
   border-radius: 18px;
   color: white;
 }

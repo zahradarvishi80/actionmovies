@@ -12,9 +12,35 @@ code {
     monospace;
 }
 
-#container {
-  width: 300px;
-  height: 300px;
-  position: relative;
-  overflow: hidden;
+@font-face {
+  font-family: Blacck;
+  src: local("Black"), url("./assets/fonts/Blacck.ttf");
+}
+@font-face {
+  font-family: Bold;
+  src: local("Bold"), url("./assets/fonts/Bold.ttf");
+}
+@font-face {
+  font-family: ExtraBlack;
+  src: local("ExtraBlack"), url("./assets/fonts/ExtraBlack.ttf");
+}
+@font-face {
+  font-family: ExtraBold;
+  src: local("ExtraBold"), url("./assets/fonts/ExtraBold.ttf");
+}
+@font-face {
+  font-family: Light;
+  src: local("Light"), url("./assets/fonts/Light.ttf");
+}
+@font-face {
+  font-family: Medium;
+  src: local("Medium"), url("./assets/fonts/Medium.ttf");
+}
+@font-face {
+  font-family: Regular;
+  src: local("Regular"), url("./assets/fonts/Regular.ttf");
+}
+@font-face {
+  font-family: Thin;
+  src: local("Thin"), url("./assets/fonts/Thin.ttf");
 }

@@ -4,7 +4,7 @@
   z-index: 1;
   left: -20;
   position: absolute;
-  background-color: white;
+  background-color: rgb(65, 63, 63);;
   border-radius: 15px;
   padding: 8px;
   top: 50%;
@@ -15,7 +15,7 @@
 .PrevArrow::after,
 .PrevArrow:hover {
   display: flex;
-  background-color: rgb(65, 63, 63);
+  background-color: black;
   border-radius: 18px;
   color: white;
 }

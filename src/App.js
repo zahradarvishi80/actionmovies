@@ -18,7 +18,7 @@ export default function SimpleSlider1() {
   };
   return (
     <div className="flex flex-col justify-center justify-items-center items-center">
-      <div className="flex max-h-[500px] ">
+      <div className="flex max-h-[500px]">
         <img
           src="https://lrmonline.com/wp-content/uploads/2021/04/AOTD-TF_R-1536x810.jpg"
           alt="actionMovies"
