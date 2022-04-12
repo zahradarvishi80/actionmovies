@@ -94,96 +94,98 @@ export default function SimpleSlider1() {
           })}
         </Slider>
       </div>
-      <div className="flex w-[100%] h-[613px] bg-slate-900 -mt-[69px] flex-row">
-        <div className="flex w-[33.3%] h-[550px] justify-between flex-col mt-16">
-          <p
-            style={{
-              fontFamily: "Bold",
-              color: "white",
-              textAlign: "center",
-              fontSize: 30,
-            }}
-          >
-            {" "}
-            Music{" "}
-          </p>
-          {MusicItems.map((item) => {
-            return (
-              <div className="flex flex-row border-b-2 border-b-[black] w-[100%] h-[15%]">
-                <img
-                  src={item.img}
-                  alt="adel"
-                  className="flex w-[80px] h-[80px] ml-10"
-                ></img>
-                <div className="flex ml-10 flex-col">
-                  <p className="text-white text-sm">{item.name} </p>
-                  <p className="text-white text-sm mt-5">{item.Songer} </p>
+      <div className="flex w-[100%] flex-col">
+        <div className="flex w-[100%] h-[650px] bg-slate-900 -mt-[69px] flex-row">
+          <div className="flex w-[33.3%] h-[550px] justify-between flex-col mt-16">
+            <p
+              style={{
+                fontFamily: "Bold",
+                color: "white",
+                textAlign: "center",
+                fontSize: 30,
+              }}
+            >
+              {" "}
+              Music{" "}
+            </p>
+            {MusicItems.map((item) => {
+              return (
+                <div className="flex flex-row border-b-2 border-b-[black] w-[100%] h-[15%]">
+                  <img
+                    src={item.img}
+                    alt="adel"
+                    className="flex w-[80px] h-[80px] ml-10"
+                  ></img>
+                  <div className="flex ml-10 flex-col">
+                    <p className="text-white text-sm">{item.name} </p>
+                    <p className="text-white text-sm mt-5">{item.Songer} </p>
+                  </div>
+                  <p className="flex ml-[25%] text-white">3:45 </p>
+                  {/* <img src={Saat} color="white"></img> */}
                 </div>
-                <p className="flex ml-[25%] text-white">3:45 </p>
-                {/* <img src={Saat} color="white"></img> */}
-              </div>
-            );
-          })}
-        </div>
-        <div className="flex w-[33.3%] h-[550px] justify-between flex-col mt-16">
-          <p
-            style={{
-              fontFamily: "Bold",
-              color: "white",
-              textAlign: "center",
-              fontSize: 30,
-            }}
-          >
-            {" "}
-            LIVE CHANNEL{" "}
-          </p>
-          {channelItems.map((item) => {
-            return (
-              <div className="flex flex-row border-b-2 border-b-[black] w-[100%] h-[15%]">
-                <img
-                  src={item.img}
-                  alt="adel"
-                  className="flex w-[100px] h-[60px] ml-10"
-                ></img>
-                <div className="flex ml-10 flex-col">
-                  <p className="text-white text-sm">{item.name} </p>
-                  <p className="text-white text-sm mt-5">{item.country} </p>
+              );
+            })}
+            <p className="flex text-center text-[#FF006C]">-----See more </p>
+          </div>
+          <div className="flex w-[33.3%] h-[550px] justify-between flex-col mt-16">
+            <p
+              style={{
+                fontFamily: "Bold",
+                color: "white",
+                textAlign: "center",
+                fontSize: 30,
+              }}
+            >
+              {" "}
+              LIVE CHANNEL{" "}
+            </p>
+            {channelItems.map((item) => {
+              return (
+                <div className="flex flex-row border-b-2 border-b-[black] w-[100%] h-[15%]">
+                  <img
+                    src={item.img}
+                    alt="adel"
+                    className="flex w-[100px] h-[60px] ml-10"
+                  ></img>
+                  <div className="flex ml-10 flex-col">
+                    <p className="text-white text-sm">{item.name} </p>
+                    <p className="text-white text-sm mt-5">{item.country} </p>
+                  </div>
                 </div>
-                {/* <p className="flex ml-[35%] text-white">3:45 </p>zc g */}
-                {/* <img src={Saat} color="white"></img> */}
-              </div>
-            );
-          })}
-        </div>
-        
-        <div className="flex w-[33.3%] h-[550px] justify-between flex-col mt-16">
-          <p
-            style={{
-              fontFamily: "Bold",
-              color: "white",
-              textAlign: "center",
-              fontSize: 30,
-            }}
-          >
-            NEWS
-          </p>
-          {NewsItems.map((item) => {
-            return (
-              <div className="flex flex-row border-b-2 border-b-[black] w-[100%] h-[15%]">
-                <img
-                  src={item.img}
-                  alt="adel"
-                  className="flex w-[100px] h-[60px] ml-10"
-                ></img>
-                <div className="flex ml-10 flex-col">
-                  <p className="text-white text-base">{item.name} </p>
-                  <p className="text-white text-sm mt-2">{item.Songer} </p>
+              );
+            })}
+            <p className="flex text-[#FF006C]">-----See more</p>
+          </div>
+
+          <div className="flex w-[33.3%] h-[550px] justify-between flex-col mt-16">
+            <p
+              style={{
+                fontFamily: "Bold",
+                color: "white",
+                textAlign: "center",
+                fontSize: 30,
+              }}
+            >
+              NEWS
+            </p>
+            {NewsItems.map((item) => {
+              return (
+                <div className="flex flex-row border-b-2 border-b-[black] w-[100%] h-[15%]">
+                  <img
+                    src={item.img}
+                    alt="adel"
+                    className="flex w-[100px] h-[50px] ml-10"
+                  ></img>
+                  <div className="flex ml-10 flex-col">
+                    <p className="text-white text-lg">{item.name} </p>
+                    <p className="text-white text-sm">{item.Songer} </p>
+                  </div>
                 </div>
-                {/* <p className="flex ml-[35%] text-white">3:45 </p>zc g */}
-                {/* <img src={Saat} color="white"></img> */}
-              </div>
-            );
-          })}
+              );
+            })}
+
+            <p className="flex text-[#FF006C]">-----See more</p>
+          </div>
         </div>
       </div>
       <style jsx>
