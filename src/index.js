@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
-// import "./tailwind.css";
+import { BrowserRouter } from "react-router-dom";
 import "./Css/tailwind.css";
 import "./assets/fonts/Blacck.ttf";
 import "./assets/fonts/Bold.ttf";
@@ -14,9 +14,9 @@ import "./assets/fonts/Medium.ttf";
 import "./assets/fonts/Regular.ttf";
 import "./assets/fonts/Thin.ttf";
 ReactDOM.render(
-  <React.StrictMode>
+  <BrowserRouter>
     <App />
-  </React.StrictMode>,
+  </BrowserRouter>,
   document.getElementById("root")
 );
 

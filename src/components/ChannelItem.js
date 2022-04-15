@@ -15,7 +15,7 @@ export default function ChannelItem() {
       </p>
       {channelItems.map((item) => {
         return (
-          <div className="flex flex-row border-b-2 border-b-[black] w-[100%] h-[15%]">
+          <div className="flex flex-row border-b-2 border-b-[white] w-[100%] h-[15%]">
             <img
               src={item.img}
               alt="News"
