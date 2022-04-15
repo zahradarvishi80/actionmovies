@@ -14,14 +14,14 @@ export default function MovieDankirk() {
         Movie Details
       </p>
       <p
-        className="flex mt-[8%] ml-5 text-[120px] text-white shadow-xl"
+        className="flex mt-[7%] ml-5 text-[100px] text-white shadow-xl"
         style={{ fontFamily: "Bold" }}
       >
         {" "}
         Dankirk{" "}
       </p>
       <p
-        className="flex text-[25px] ml-5 text-white"
+        className="flex text-[18px] ml-5 -mt-10 text-white"
         style={{ fontFamily: "Bold" }}
       >
         Lorem Ipsum is Simply dummy text od the printing and typeset- ting
@@ -30,33 +30,33 @@ export default function MovieDankirk() {
       </p>
       <div className="flex flex-row">
         {" "}
-        <div className="flex w-24 h-8 absolute rounded-3xl bg-[#EE0568] mt-5 ml-5">
+        <div className="flex w-24 h-8 absolute rounded-3xl bg-[#EE0568] mt-2 ml-5">
           <p className="flex text-center justify-center items-center justify-items-center ml-5 text-white">
             {" "}
             2h 28m
           </p>
         </div>
         <p
-          style={{ fontFamily: "Blacck" }}
-          className="absolute text-white text-xl mt-7 ml-32"
+          style={{ fontFamily: "Bold" }}
+          className="absolute text-white text-sm mt-6 ml-32"
         >
           Christopher Nolan{" "}
         </p>
       </div>
       <p
         style={{ fontFamily: "Bold" }}
-        className="flex absolute text-xl text-white mt-[25%] ml-5"
+        className="flex absolute text-md text-white mt-[23.5%] ml-5"
       >
         2017 . Action , War
       </p>
       <p
-        style={{ fontFamily: "ExtraBold" }}
-        className="flex absolute text-3xl text-[#EE0568] mt-[27%] ml-5"
+        style={{ fontFamily: "Bold" }}
+        className="flex absolute text-2xl text-[#EE0568] mt-[25.6%] ml-5"
       >
         Artist
       </p>
       <p
-        className="flex mt-[19%] ml-5 text-[25px] text-white"
+        className="flex mt-[19%] ml-5 text-[18px] text-white"
         style={{ fontFamily: "Bold" }}
       >
         Lorem Ipsum is Simply dummy text od the printing and typeset- ting
@@ -64,13 +64,13 @@ export default function MovieDankirk() {
         since the 1500s.
       </p>
       <p
-        style={{ fontFamily: "ExtraBold" }}
-        className="flex absolute text-3xl text-[#EE0568] mt-[35%] ml-5"
+        style={{ fontFamily: "Bold" }}
+        className="flex absolute text-2xl text-[#EE0568] mt-[34%] ml-5"
       >
         Summary
       </p>
       <p
-        className="flex ml-5 mt-[10%] text-[25px] text-white"
+        className="flex ml-5 mt-[8%] text-[18px] text-white"
         style={{ fontFamily: "Bold" }}
       >
         {" "}

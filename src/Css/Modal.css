@@ -1,0 +1,31 @@
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(4, 2, 8, 0.6);
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container_modal {
+  width: 400px;
+  height: 320px;
+  border-radius: 10px;
+  background-color: white;
+  /* margin-inline: 35px;
+  margin-block: 10%; */
+}
+.header,
+.modal-footer {
+  background-image: url(../assets/imgback.jpg);
+  background-repeat: round;
+  padding: 10px;
+}
+.modal-body {
+  padding: 10px;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
